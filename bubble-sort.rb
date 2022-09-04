@@ -17,3 +17,5 @@ def bubble_sort (arr)
   end
   arr
 end
+
+puts "#{arr} is sorted to #{bubble_sort(arr)}."
