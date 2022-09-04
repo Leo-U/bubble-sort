@@ -6,3 +6,5 @@ switch arr[0] with arr[1] if arr[0] is larger.
 push leftmost array value to new array.  
 
 Loop above steps until new array is filled. Set original array equal to the new one. Nest that loop in another loop that repeats until the array is sorted.
+
+replit link: https://replit.com/@LeoU1/SpicyCreativeDistributeddatabase#main.rb
