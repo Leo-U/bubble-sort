@@ -1,23 +1,8 @@
 #### Algorithm
-
-1.  [ 3, 7, 2, 15, 1, 1 ]
-2.  [ [ 3, 7 ], 2, 15 , 1, 1 ]
-3.  [ [ 7, 3 ], 2, 15, 1, 1 ]
-
-4.  [ 7 ]      [ 3, 2, 15, 1, 1 ]
-5.  [ 7 ]      [ [ 3, 2 ], 15, 1, 1 ]
-6.  [ 7 ]      [ [ 2, 3 ], 15, 1, 1 ]
-
-7.  [ 7, 2 ]      [ 3, 15, 1, 1 ]
-8.  [ 7, 2 ]      [ [ 3, 15 ],1 ,1 ]
-9.  [ 7, 2 ]      [ [ 15, 3 ], 1, 1 ]
-
-10. [ 7, 2, 15 ]      [ 3, 1, 1 ]
-11. [ 7, 2, 15 ]      [ [ 3, 1 ], 1 ]
-12. [ 7, 2, 15 ]      [ [ 1, 3 ], 1 ]
-
-13. [ 7, 2, 15, 1 ]      [ [ 3, 1 ] ]
-14. [ 7, 2, 15, 1, 3 ]      [ 1 ]      ??
-15. [ 7, 2, 15, 1, 3, 1 ]
-
-And then repeat.
+1. [3,7,2,15,1,1]
+switch arr[0] with arr[1] if arr[0] is larger.
+<br>
+2. [3]     [7,2,15,1,1]
+push leftmost array value to new array.
+<br>
+Loop above steps until new array is filled. Nest that loop in another loop that repeats until the array is sorted.
