@@ -1,6 +1,5 @@
-arr = [4,3,78,2,0,2]
-
-def bubble_sort (arr)
+#bubble sorter:
+def bubble_sort(arr)
   push_me = []
   loop do
     check_me = arr.dup
@@ -15,4 +14,13 @@ def bubble_sort (arr)
   arr
 end
 
-puts "#{arr} is sorted to #{bubble_sort(arr)}."
+#tester:
+def tester
+  rand_arr = []
+  rand(2..50).times do
+    rand_arr.push(rand(300))
+  end
+  puts "It is #{rand_arr.sort == bubble_sort(rand_arr)} that the random array #{rand_arr.sort} is properly sorted."
+end
+ 
+tester
