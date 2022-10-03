@@ -1,4 +1,4 @@
-#### Algorithm
+#### Algorithm/pseudocode/whatever this technically is:
 1. [3,7,2,15,1,1]  
 switch arr[0] with arr[1] if arr[0] is larger.  
 
