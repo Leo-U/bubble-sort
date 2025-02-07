@@ -20,7 +20,7 @@ def tester
   rand(2..25).times do
     rand_arr.push(rand(300))
   end
-  puts "\nIt is #{rand_arr.sort == bubble_sort(rand_arr.dup)} that the random array\n\n#{rand_arr}\n\nwas properly sorted to\n\n#{bubble_sort(rand_arr)}."
+  puts "\nIt is " + "#{rand_arr.sort == bubble_sort(rand_arr.dup)} ".upcase + "that the random array\n\n#{rand_arr}\n\nwas properly sorted to\n\n#{bubble_sort(rand_arr)}."
 end
  
 tester
